@@ -4,8 +4,15 @@
   "description": "chatting made local",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "@LukasUdstuen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "socket.io": "^1.4.8"
+  }
 }
